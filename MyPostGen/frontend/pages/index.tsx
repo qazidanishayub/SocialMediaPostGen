@@ -6,7 +6,7 @@ export default function Home() {
   const [post, setPost] = useState("");
 
   const handleGenerate = async () => {
-    const res = await fetch("railwaydeployedpythonserver-production.up.railway.app", {
+    const res = await fetch("https://railwaydeployedpythonserver-production.up.railway.app", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ user_idea: idea, domain }),
