@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-post-ui",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.4",
+    "react": "^18.2",
+    "react-dom": "^18.2"
+  }
+}
